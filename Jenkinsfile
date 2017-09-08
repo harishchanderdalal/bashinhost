@@ -2,7 +2,7 @@
       
     stage ('Git Checkout')
     {
-          dir ('bashinhost') { 
+          dir ('vagrant') { 
           git 'https://github.com/harishchanderdalal/bashinhost.git'
     	      echo 'git Clone'
              }
