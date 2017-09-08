@@ -9,7 +9,7 @@
 - change variable in VagrantFile
 
 ## RUN
-``
-vagrant box add dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
-vagrant up --provider=aws
-``
+```
+- vagrant box add dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
+- vagrant up --provider=aws
+```
