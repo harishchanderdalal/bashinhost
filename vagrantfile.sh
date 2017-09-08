@@ -1,5 +1,3 @@
-#! /bin/sh
-cat <<EOF
 Vagrant.configure('2') do |config|
     config.vm.box = 'dummy'
     config.vm.provider 'aws' do |aws, override|
@@ -19,4 +17,3 @@ Vagrant.configure('2') do |config|
   end
    config.vm.provision :shell, :path => "tomcat8.sh"
 end
-EOF
